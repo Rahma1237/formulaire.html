@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel="stylesheet" type="text/css" href="STYLEFOR.css">
+</head>
+<body>
+    <div class="container">
+        <h1 align="middle">FORMULAIRE</h1>
+        <form action="texte file.html" name="MonFormulaire">
+        <legend align="middle">MERCI DE REMPLIR CE FORMULAIRE</legend>
+            <span class="title">Informations personnelles</span>
+            <fieldset>
+            <p>
+            <div class="user-details">
+                
+                <div class="input-box">
+                    <span class="details">Nom</span>
+                    <input type="text" id="nom" name="nom" placeholder="Saisir votre nom" required>
+                    <small></small>
+                </div>
+                <div class="input-box">
+                    <span class="details">Prénom</span>
+                    <input type="text" id="prenom" name="prenom" placeholder="Saisir votre prénom" required>
+                    <small></small>
+                </div>
+            </p>
+        
+            <div style ="text-align: centre;"></div>
+            <p>
+                <div class="input-box">
+                    <span class="details">Date de naissance</span>
+                    <input type="date" id="date" name="date" required>
+                </div>
+                <div style="'text-align: centre;"></div>
+                <div class="input-box">
+                    <label for="Age">Age</label>
+                    <input id="Age" name="age" type="number" placeholder="xx" required>
+                    <small></small>
+                </div>
+            </p>
+                <div style="'text-align: centre;"></div>
+            
+            <p>
+                <div class="gender-details">
+                    <p>
+                        <label>Sexe :</label>
+                        <input type="radio" id="homme" name="sexe" value="homme" class="maclass" required>
+                        <label for="homme">homme</label>
+                        <input type="radio" id="femme" name="sexe"value="femme" class="maclass" required>
+                        <label for="femme">femme</label>
+                        </p>
+                </div>
+                <p>
+                    <label>Situation :</label>
+                    <input type="radio" id="celibataire" name="situation" value="celibataire" class="maclass" required>
+                    <label for="celibataire">celibataire</label>
+                    <input type="radio" id="marié" name="situation"value="marié" class="maclass" required>
+                    <label for="marié">marié</label>
+                    </p>
+                </fieldset>
+                <div style="'text-align: centre;"></div>
+
+                <span class="title">Contact</span>
+               <div class="contact">
+                <div style="'text-align: centre;"></div>
+            <fieldset>
+            
+                <p>
+                <div class="input-box1">
+                    <span class="details">Email</span>
+                    <input type="text" id="email" name="email" placeholder="saisir votre email" required>
+                    <small></small>
+                </div>
+            
+                <div style="'text-align: centre;"></div>
+            <hr>
+                <div class="input-box1">
+                    <span class="details">Adresse</span>
+                    <input type="text"id="adresse" name="adresse"placeholder="Saisir votre adresse" required>
+                    <small></small>
+                </div>
+            </hr>
+                <div style="'text-align: centre;"></div>
+            <hr>
+                <div class="input-box1">
+                    <span class="details">Télephone</span>
+                    <input type="text" id="telephone" name="telephone"placeholder="Saisir votre numèro de telephone" required>
+                </div>
+            </hr>
+                </div>
+                <p>
+
+            </div>
+            </fieldset>
+            <span class="title">Informations professionnelles</span>
+            <div class="Informations professionnelles">
+            <fieldset>
+            
+            <span class="title">Objectif  professionnel</span>
+            <div class="Objectif">
+                
+                <br> <textarea id="Objectif" name="Objectif" rows="4" cols="90" placeholder="Parlez de votre objectif professionnel"></textarea></br>
+            </div>
+            
+            <hr>
+            <div class="column"><div class="title" id="diplome">Diplome</div>
+                <div class="select-box">
+                    <select>
+                        <option>DUT</option>
+                        <option>Master</option>
+                        <option >License</option>
+                        <option>Doctorat</option>
+                    </select>
+                </div>
+            </div>
+            </hr>
+            <hr>
+            <div class="langue-option">
+                <span class="title">Langues</span>
+                <div class="langue">
+                <input type="checkbox" id="check-langue" name="langue" checked>
+                <label for="check-langue" >Français</label>
+                </div>
+                
+                <div class="langue">
+                    <input type="checkbox" id="check-langue" name="langue" checked>
+                    <label for="check-langue" >Anglais</label>
+                    </div>
+                    <div class="langue">
+                        <input type="checkbox" id="check-langue" name="langue" checked>
+                        <label for="check-langue" >Espagnol</label>
+                        </div>
+                        <div class="langue">
+                            <input type="checkbox" id="check-langue" name="langue" checked>
+                            <label for="check-langue" >Autre</label>
+                            </div>
+                            </div>
+                
+            </hr>
+            <hr>
+            <div class="langage-option">
+                <span class="title">Langage de programmation</span>
+                <div class="langage">
+                <input type="checkbox" id="check-langage" name="langage" checked>
+                <label for="check-langage" >HTML</label>
+                </div>
+                <div class="langage">
+                    <input type="checkbox" id="check-langage" name="langage" checked>
+                    <label for="check-langage" >CSS</label>
+                    </div>
+            
+                <div class="langage">
+                     <input type="checkbox" id="check-langage" name="langage" checked>
+                     <label for="check-langage" >C</label></div>
+                     <div class="langage">
+                        <input type="checkbox" id="check-langage" name="langage" checked>
+                        <label for="check-langage" >Java</label></div>
+
+            </div>
+            </hr>
+            <hr>
+            <span class="title">Compétences techniques</span>
+            <div class="competence">
+                
+                <br> <textarea id="competence" name="competence" rows="4" cols="90" placeholder="Parlez de votre Compétences techniques"></textarea></br>
+            </div>
+            </hr>
+
+            <p><input type="submit" id="submit" value="Soummettre"></p>
+            
+
+        </form>
+
+
+
+
+    </div>
+
+    <script src="java.js"></script>
+
+
+</body>
+</html>
